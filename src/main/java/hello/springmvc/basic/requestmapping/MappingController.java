@@ -69,6 +69,7 @@ public class MappingController {
      * params="mode=debug"
      * params="mode!=debug" (! = )
      * params = {"mode=debug","data=good"}
+     * http://localhost:8080/mapping-param?mode=debug
      */
     @GetMapping(value = "/mapping-param", params = "mode=debug")
     public String mappingParam() {
